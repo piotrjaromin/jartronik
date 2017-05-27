@@ -20,12 +20,10 @@ footer {
 }
 
 .container {
-
   & .jumbotron {
     border-radius: 0;
     padding: 5px;
   }
-
   & .well {
     border-radius: 0;
   }
@@ -45,24 +43,36 @@ footer {
 }
 
 .navbar-inverse {
-  background-color: #2d3e50;
-  border-color: #2d3e50;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 
 .vertical-right {
   border-right: 1px dashed #333;
 }
 
-.navbar-inverse .navbar-nav > li > a {
-  color: #6FBEF3;
+.navbar {
+  margin-bottom: 0px
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #555f66;
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+  color: #629DD1;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+  color: #629DD1;
 }
 
 .navbar-inverse .navbar-text {
-  color: #6FBEF3;
+  color: #555f66;
 }
 
 .navbar-inverse .navbar-brand {
-  color: #6FBEF3;
+  color: #555f66;
 }
 
 .jumbotron {

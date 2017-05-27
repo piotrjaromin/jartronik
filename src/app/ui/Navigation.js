@@ -8,22 +8,25 @@ let Navigation = React.createClass({
         return <nav className="navbar navbar-inverse navbar-static-top" role="navigation">
             <div className="container">
                 <div className="navbar-header">
-                    <button type="button" className="navbar-toggle collapsed" data-toggle="collapse"
-                            data-target="#navbar" aria-expanded="false">
-                        <span className="sr-only">Toggle navigation</span>
-                        <span className="icon-bar"></span>
-                        <span className="icon-bar"></span>
-                        <span className="icon-bar"></span>
-                    </button>
-                    <a className="navbar-brand" href="#">Home Site?</a>
+
+                    <a className="navbar-brand" href="#">Jartronik</a>
                 </div>
                 <div className="collapse navbar-collapse" id="navbar">
                     <ul className="nav navbar-nav">
                         <li className="center">
-                            <Link to="/offers" activeClassName="active" onlyActiveOnIndex>Offers</Link>
+                            <Link to="/offers" activeClassName="active" onlyActiveOnIndex>O firmie</Link>
                         </li>
                         <li className="center">
-                            <Link to="/companies" activeClassName="active" onlyActiveOnIndex>Companies</Link>
+                            <Link to="/companies" activeClassName="active" onlyActiveOnIndex>Oferta</Link>
+                        </li>
+                        <li className="center">
+                            <Link to="/companies" activeClassName="active" onlyActiveOnIndex>Limit remontowy</Link>
+                        </li>
+                        <li className="center">
+                            <Link to="/companies" activeClassName="active" onlyActiveOnIndex>Galeria</Link>
+                        </li>
+                        <li className="center">
+                            <Link to="/companies" activeClassName="active" onlyActiveOnIndex>Kontakt</Link>
                         </li>
                     </ul>
                 </div>

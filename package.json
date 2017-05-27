@@ -1,13 +1,13 @@
 {
   "name": "react-babel-webpack-v1",
   "version": "1.0.0",
-  "description": "",
+  "description": "Jartronik home site",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --progress",
     "build-prod": "ENV=production webpack --progress",
-    "start": "webpack-dev-server --port 3000 --progress --watch --content-base ./src/dist"
+    "start": "webpack-dev-server --port 3000 --progress --watch --content-base ./dist"
   },
   "author": "",
   "license": "ISC",
