@@ -20,29 +20,15 @@ const config = {
                 include: APP_DIR,
                 loader: 'babel-loader'
             },
+             { test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "url-loader?limit=10000&mimetype=application/font-woff" },
+            { test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "file-loader" },
             {
                 test: /\.css$/,
                 loader: 'style-loader!css-loader'
             },
             {
-                test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,
-                loader: "file-loader?name=fonts/[name].[ext]"
-            },
-            {
                 test: /\.scss$/,
                 loaders: ["style-loader", "css-loader?sourceMap", "sass-loader?sourceMap"]
-            },
-            {
-                test: /\.(woff|woff2)$/,
-                loader: "url-loader?name=fonts/[name].[ext]&prefix=font/&limit=5000"
-            },
-            {
-                test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
-                loader: "url-loader?name=fonts/[name].[ext]&limit=10000&mimetype=application/octet-stream"
-            },
-            {
-                test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
-                loader: "url-loader?name=fonts/[name].[ext]&limit=10000&mimetype=image/svg+xml"
             }
         ]
     },
@@ -56,9 +42,10 @@ const config = {
                 warnings: false
             },
             comments: false,
-            sourceMap: false,
+            // sourceMap: false,
+            sourceMap: true,
             mangle: true,
-            minimize: true
+            // minimize: true
         }),
         new webpack.DefinePlugin({
             'process.env': {

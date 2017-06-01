@@ -8,14 +8,13 @@ let Navigation = React.createClass({
         return <nav className="navbar navbar-inverse navbar-static-top" role="navigation">
             <div className="container">
                 <div className="navbar-header">
-
                     <a className="navbar-brand" href="#">Jartronik</a>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </div>
                 <div className="collapse navbar-collapse" id="navbar">
                     <ul className="nav navbar-nav">
-                        <li className="center">
-                            <Link to="/offers" activeClassName="active" onlyActiveOnIndex>O firmie</Link>
-                        </li>
                         <li className="center">
                             <Link to="/companies" activeClassName="active" onlyActiveOnIndex>Oferta</Link>
                         </li>
@@ -26,7 +25,7 @@ let Navigation = React.createClass({
                             <Link to="/companies" activeClassName="active" onlyActiveOnIndex>Galeria</Link>
                         </li>
                         <li className="center">
-                            <Link to="/companies" activeClassName="active" onlyActiveOnIndex>Kontakt</Link>
+                            <Link to="/contact" activeClassName="active" onlyActiveOnIndex>Kontakt</Link>
                         </li>
                     </ul>
                 </div>

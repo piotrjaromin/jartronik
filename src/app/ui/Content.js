@@ -19,37 +19,33 @@ let Content = React.createClass({
             <SuccessAlert msg={successMsg}/>
             <ErrorAlert msg={errorMsg}/>
 
-            <Jumbotron>
+            <Jumbotron className="banner">
                 <div className="container">
-                    <h2>Welcome Page</h2>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-                        Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                    <Row>
+                        <Col md={4} xs={4} lg={4}></Col>
+                        <Col md={4} xs={4} lg={4}><img src="/images/logo-jartronik.png"/></Col>
+                        <Col md={4} xs={4} lg={4}></Col>
+                    </Row>
                 </div>
             </Jumbotron>
 
             <div className="container">
                 <Row>
-                    <Col md={4}>
-                        <h2>Donec id elit</h2>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
-                            mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna
-                            mollis euismod. Donec sed odio dui. </p>
-                        <p><Button bsStyle="default" >Details &raquo;</Button></p>
-                    </Col>
-                    <Col md={4}>
-                        <h2>Donec id elit</h2>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
-                            mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna
-                            mollis euismod. Donec sed odio dui. </p>
-                        <p><Button bsStyle="default" >Details &raquo;</Button></p>
-                    </Col>
-                    <Col md={4}>
-                        <h2>Donec id elit</h2>
-                        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula
-                            porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
-                            ut fermentum massa justo sit amet risus.</p>
-                        <p><Button bsStyle="default" >Details &raquo;</Button></p>
-                    </Col>
+                    <p>Firma "Jartronik" istnieje na rynku polskim od 1988 r. </p>
+                    <p>Od 1994 r. zajmujemy się wyłącznie systemami grzewczymi oraz doradztwem w doborze systemów dla budynków jednorodzinnych, bloków i firm.</p>
+
+                    <p>Wykonujemy kompleksowo instalacje centralnego ogrzewania, centralnej wody użytkowej oraz kanalizacji w nowych jak i istniejących budynkach.</p>
+
+                    <p>Montujemy:</p>
+                    <ul>
+                    <li>kotły na paliwa stałe firm: Żywiec, Protech Gierałtowice, Stalamark, Ogniwo, SAS, Galmet, Zębiec Dakon, Viadrus, Zgoda Wieprz, Brastal, Heiztechnik.</li>
+                    <li>kotły gazowe firm: Saunier Douval, De Dirich, Junkers, Vailant, Paradigma.</li>
+                    <li>W ofercie posiadamy systemy kominowe, rury dymne do kotłów kominków i gazu.</li>
+                    <li>Montujemy instalacje solarne miedzy innymi niemieckich firm Paradigma oraz Galmet, Watt i Mora.</li>    
+                    </ul>
+
+                    <p> Wykonujemy usługi montażu wkładów kominowych oraz piecyków wielu europejskich i polskich firm.</p>
+
                 </Row>
             </div>
         </div>

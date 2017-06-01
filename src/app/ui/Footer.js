@@ -6,12 +6,15 @@ const Row = require('react-bootstrap').Row;
 
 const Footer = React.createClass({
     render() {
-        return <footer>
-            <hr/>
-            <Col log={12}>
-                <p>Copyright &copy; 2016</p>
-            </Col>
-        </footer>
+        return <footer className="footer text-center">
+                    <div className="footer-below">
+                        {/*<Row>*/}
+                            {/*<Col lg={12}>*/}
+                                <p class="">Copyright © Jartronik 2017. All Rights Reserved</p>
+                            {/*</Col>*/}
+                        {/*</Row>*/}
+                    </div>
+                </footer>
     }
 });
 

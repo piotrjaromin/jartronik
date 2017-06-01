@@ -1,5 +1,19 @@
 footer {
-  margin: 50px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  // margin: 50px 0;
+  background-color: #b5a397;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px;
 }
 
 .btn {
@@ -38,13 +52,12 @@ footer {
   margin-right: 1em;
 }
 
-.text-error {
-  color: #b94a48;
+.maring-up-1em {
+  margin-top: 1em;
 }
 
-.navbar-inverse {
-  background-color: #ffffff;
-  border-color: #ffffff;
+.text-error {
+  color: #b94a48;
 }
 
 .vertical-right {
@@ -52,31 +65,59 @@ footer {
 }
 
 .navbar {
-  margin-bottom: 0px
+  margin-bottom: 0px;
+  border-radius: 0px
 }
 
-.navbar-inverse .navbar-nav>li>a {
-  color: #555f66;
+.navbar-inverse {
+  background-color: #f6f1ed;
+  border-color:#f6f1ed;
+  .navbar-nav>li>a {
+    color: #30231d;
+  }
+  .navbar-nav>li>a:focus,
+  .navbar-nav>li>a:hover {
+    color: #6a5750;
+  }
+  .navbar-text {
+    color: #6a5750;
+  }
+
+  .navbar-brand{
+      color: #30231d;
+      :hover,
+      :focus {    
+        color: #6a5750;
+      }
+  }
 }
 
-.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
-  color: #629DD1;
-}
+.banner {
 
-.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
-  color: #629DD1;
-}
+  // @media screen and (min-width: 2592) {
+  //   background-image: url("/images/fireplace_2592_1944.jpg");
+  // }
+  // @media screen and (min-width: 1920) {
+  //   background-image: url("/images/fireplace_1920_1440.jpg");
+  // }
+  // @media screen and (min-width: 1280) {
+  //   background-image: url("/images/fireplace_1280_960.jpg");
+  // }
+  // @media screen and (min-width: 540) {
+  //   background-image: url("/images/fireplace_640_480.jpg");
+  // }
 
-.navbar-inverse .navbar-text {
-  color: #555f66;
-}
-
-.navbar-inverse .navbar-brand {
-  color: #555f66;
+  background-image: url("/images/fireplace_1920_1440.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #b5a397;
+  text-align: center;
+  position: relative;
 }
 
 .jumbotron {
-  background-color: #1f8dd6;
+  background-color: white;
   color: white;
 }
 
@@ -94,4 +135,30 @@ footer {
 
 .zero-margin {
   margin: 0;
+}
+
+.line-height-20p {
+  line-height:20%;
+}
+
+.contact-line {
+  line-height:6%;
+  color: #6a5750
+}
+
+.contact-value {
+  margin-top:6%;
+  line-height:35%
+}
+
+.borderless {
+  border: 0
+}
+
+.jumbotron.contact {
+  color: #6a5750;
+  background-color: white;
+}
+.footer .footer-below {
+  padding-top: 25px;
 }

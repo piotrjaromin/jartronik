@@ -1,6 +1,7 @@
 'use strict';
 
 require('../../node_modules/bootstrap/dist/css/bootstrap.min.css');
+require('font-awesome-webpack');
 require('../styles/main.scss');
 
 const React = window.React = require('react'),
@@ -8,6 +9,7 @@ const React = window.React = require('react'),
     Footer = require("./ui/Footer"),
     Content = require("./ui/Content"),
     Navigation = require("./ui/Navigation"),
+    Contact = require("./ui/Contact"),
     TestContent = require('./ui/SampleTest'),
     mountNode = document.getElementById("app");
 
@@ -49,6 +51,7 @@ ReactDOM.render(<Router history={hashHistory}>
             <Route path="" component={Container}>=
                 <Route path="offers" component={TestContent}/>
                 <Route path="companies" component={TestContent}/>
+                <Route path="contact" component={Contact}/>
             </Route>
         </Route>
     </Router>,
