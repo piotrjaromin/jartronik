@@ -40,7 +40,7 @@ class App extends React.Component {
 class Container extends React.Component {
 
     render() {
-        return <div className="container">
+        return <div className="container em3-bottom-padding">
             {this.props.children}
         </div>
     }

@@ -6,7 +6,7 @@ const Row = require('react-bootstrap').Row;
 
 const Footer = React.createClass({
     render() {
-        return <footer className="footer text-center">
+        return <footer className="footer text-center maring-up-1em">
                     <div className="footer-below">
                             <p class="">Copyright © Jartronik 2017. All Rights Reserved</p>
                     </div>

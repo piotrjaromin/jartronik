@@ -3,6 +3,7 @@
 const React = require('react');
 const Col = require('react-bootstrap').Col;
 const Row = require('react-bootstrap').Row;
+const OferTile = require('./OfferTile');
 
 class Offer extends React.Component {
 
@@ -11,10 +12,8 @@ class Offer extends React.Component {
     }
 
     render() {
-        return <div className="container">
-
-                <Row>
-                    <Col lg={3} md={3} sm={4}>
+        return <Row>
+                    <Col lg={3} md={3} sm={3} xs={12}>
                         <div className="list-group table-of-contents">
                         <a className="list-group-item" href="#navbar">Ktoły</a>
                         <a className="list-group-item" href="#buttons">Kotły gazowe</a>
@@ -24,13 +23,17 @@ class Offer extends React.Component {
                         <a className="list-group-item" href="#navs">Aparty grzewczo-wentylacyjne</a>
                         </div>
                     </Col>
-                    <Col log={9} md={9} sm={8}>
+                    <Col log={9} md={9} sm={9} xs={12}>
                         <Row>
-                            <Col sm={12} md={3} log={3}></Col>
-                        </Row>    
+                            <OferTile></OferTile>
+                            <OferTile></OferTile>
+                            <OferTile></OferTile>
+                            <OferTile></OferTile>
+                            <OferTile></OferTile>
+                            <OferTile></OferTile>
+                        </Row>
                     </Col>
                 </Row>
-            </div>
     }
 }
 
