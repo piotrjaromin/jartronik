@@ -8,11 +8,7 @@ const Footer = React.createClass({
     render() {
         return <footer className="footer text-center">
                     <div className="footer-below">
-                        {/*<Row>*/}
-                            {/*<Col lg={12}>*/}
-                                <p class="">Copyright © Jartronik 2017. All Rights Reserved</p>
-                            {/*</Col>*/}
-                        {/*</Row>*/}
+                            <p class="">Copyright © Jartronik 2017. All Rights Reserved</p>
                     </div>
                 </footer>
     }

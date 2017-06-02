@@ -11,6 +11,7 @@ const React = window.React = require('react'),
     Navigation = require("./ui/Navigation"),
     Contact = require("./ui/Contact"),
     TestContent = require('./ui/SampleTest'),
+    Offer = require('./ui/Offer'),
     mountNode = document.getElementById("app");
 
 let Route = require("react-router/lib/Route");
@@ -49,7 +50,7 @@ ReactDOM.render(<Router history={hashHistory}>
         <Route path="/" component={App}>
             <IndexRoute component={Content}/>
             <Route path="" component={Container}>=
-                <Route path="offers" component={TestContent}/>
+                <Route path="offers" component={Offer}/>
                 <Route path="companies" component={TestContent}/>
                 <Route path="contact" component={Contact}/>
             </Route>
