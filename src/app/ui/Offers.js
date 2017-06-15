@@ -5,6 +5,8 @@ const Col = require('react-bootstrap').Col;
 const Row = require('react-bootstrap').Row;
 const OferTile = require('./OfferTile');
 
+const offers = require('../offers-list.json');
+
 class Offer extends React.Component {
 
     constructor(params) {
@@ -12,6 +14,10 @@ class Offer extends React.Component {
     }
 
     render() {
+
+        const tiles = [];
+        offers.forEach( o => tiles.push(<OferTile name={o.name} imgUrl={o.image} path={o.path}></OferTile>));
+
         return <Row>
                     <Col lg={3} md={3} sm={3} xs={12}>
                         <div className="list-group table-of-contents">
@@ -25,12 +31,7 @@ class Offer extends React.Component {
                     </Col>
                     <Col log={9} md={9} sm={9} xs={12}>
                         <Row>
-                            <OferTile></OferTile>
-                            <OferTile></OferTile>
-                            <OferTile></OferTile>
-                            <OferTile></OferTile>
-                            <OferTile></OferTile>
-                            <OferTile></OferTile>
+                            {tiles}
                         </Row>
                     </Col>
                 </Row>

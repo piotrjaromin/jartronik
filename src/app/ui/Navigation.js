@@ -1,9 +1,9 @@
 'use strict';
 
-let Link = require("react-router/lib/Link");
-let React = require('react');
+const Link = require("react-router/lib/Link");
+const React = require('react');
 
-let Navigation = React.createClass({
+const Navigation = React.createClass({
     render() {
         return <nav className="navbar navbar-inverse navbar-static-top" role="navigation">
             <div className="container">
