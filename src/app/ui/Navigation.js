@@ -9,9 +9,9 @@ const Navigation = React.createClass({
             <div className="container">
                 <div className="navbar-header">
                     <a className="navbar-brand" href="#">Jartronik</a>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <span className="icon-bar"></span>
+                    <span className="icon-bar"></span>
+                    <span className="icon-bar"></span>
                 </div>
                 <div className="collapse navbar-collapse" id="navbar">
                     <ul className="nav navbar-nav">
@@ -22,7 +22,7 @@ const Navigation = React.createClass({
                             <Link to="/companies" activeClassName="active" onlyActiveOnIndex>Limit remontowy</Link>
                         </li>
                         <li className="center">
-                            <Link to="/companies" activeClassName="active" onlyActiveOnIndex>Galeria</Link>
+                            <Link to="/gallery" activeClassName="active" onlyActiveOnIndex>Galeria</Link>
                         </li>
                         <li className="center">
                             <Link to="/contact" activeClassName="active" onlyActiveOnIndex>Kontakt</Link>

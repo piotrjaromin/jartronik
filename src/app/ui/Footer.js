@@ -4,15 +4,15 @@ const React = require('react');
 const Col = require('react-bootstrap').Col;
 const Row = require('react-bootstrap').Row;
 
-const Footer = React.createClass({
+class Footer extends React.Component {
     render() {
         return <footer className="footer text-center maring-up-1em">
                     <div className="footer-below">
-                            <p class="">Copyright © Jartronik 2017. All Rights Reserved</p>
+                            <p className="">Copyright © Jartronik 2017. All Rights Reserved</p>
                     </div>
                 </footer>
     }
-});
+};
 
 
 module.exports = Footer;

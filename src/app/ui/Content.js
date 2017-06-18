@@ -9,7 +9,7 @@ const Row = require('react-bootstrap').Row;
 const Jumbotron = require('react-bootstrap').Jumbotron;
 const Button = require('react-bootstrap').Button;
 
-let Content = React.createClass({
+class Content extends React.Component {
     render() {
         let successMsg = this.props.location.state && this.props.location.state.msg;
         let errorMsg = this.props.location.state && this.props.location.state.errorMsg;
@@ -31,7 +31,7 @@ let Content = React.createClass({
 
             <div className="container">
                 <Row>
-                    <p>Firma "Jartronik" istnieje na rynku polskim od 1988 r. </p>
+                    <p>Firma Jartronik istnieje na rynku polskim od 1988 r. </p>
                     <p>Od 1994 r. zajmujemy się wyłącznie systemami grzewczymi oraz doradztwem w doborze systemów dla budynków jednorodzinnych, bloków i firm.</p>
 
                     <p>Wykonujemy kompleksowo instalacje centralnego ogrzewania, centralnej wody użytkowej oraz kanalizacji w nowych jak i istniejących budynkach.</p>
@@ -50,6 +50,6 @@ let Content = React.createClass({
             </div>
         </div>
     }
-});
+};
 
 module.exports = Content;

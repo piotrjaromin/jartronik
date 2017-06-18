@@ -2,6 +2,7 @@
 
 require('../../node_modules/bootstrap/dist/css/bootstrap.min.css');
 require('font-awesome-webpack');
+require('../../node_modules/react-image-gallery/styles/css/image-gallery.css');
 require('../styles/main.scss');
 
 const React = window.React = require('react'),
@@ -10,7 +11,8 @@ const React = window.React = require('react'),
     Content = require("./ui/Content"),
     Navigation = require("./ui/Navigation"),
     Contact = require("./ui/Contact"),
-    TestContent = require('./ui/SampleTest'),
+    MyGallery = require('./ui/Gallery2'),
+    Offers = require('./ui/Offers'),
     Offer = require('./ui/Offer'),
     mountNode = document.getElementById("app");
 
@@ -50,9 +52,10 @@ ReactDOM.render(<Router history={hashHistory}>
         <Route path="/" component={App}>
             <IndexRoute component={Content}/>
             <Route path="" component={Container}>=
-                <Route path="offers" component={Offer}/>
-                <Route path="companies" component={TestContent}/>
+                <Route path="offers" component={Offers}/>
+                <Route path="gallery" component={MyGallery}/>
                 <Route path="contact" component={Contact}/>
+                <Route path="offers/*" component={Offer}/>
             </Route>
         </Route>
     </Router>,
