@@ -18,7 +18,7 @@ class OffersMenu extends React.Component {
             <a className="list-group-item" href="#offers?filter=other" onClick={this.props.handleClick("other")}>Kolektory słoneczne</a>
             <a className="list-group-item" href="#offers?filter=kominki" onClick={this.props.handleClick("kominki")}>Kominki</a>
             <a className="list-group-item" href="#offers?filter=akcesoria" onClick={this.props.handleClick("akcesoria")}>Akcesoria kominkowe</a>
-            <a className="list-group-item" href="#offersfilter=other" onClick={this.props.handleClick("other")}>Aparty grzewczo-wentylacyjne</a>
+            <a className="list-group-item" href="#offers?filter=other" onClick={this.props.handleClick("other")}>Aparty grzewczo-wentylacyjne</a>
         </div>
     }
 }
