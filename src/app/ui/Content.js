@@ -23,7 +23,7 @@ class Content extends React.Component {
                 <div className="container">
                     <Row>
                         <Col md={4} xs={4} lg={4}></Col>
-                        <Col md={4} xs={4} lg={4}><img src="/images/logo-jartronik.png"/></Col>
+                        <Col md={4} xs={4} lg={4}><img src="images/logo-jartronik.png"/></Col>
                         <Col md={4} xs={4} lg={4}></Col>
                     </Row>
                 </div>
