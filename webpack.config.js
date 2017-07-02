@@ -8,7 +8,7 @@ const config = {
     devtool: "cheap-module-source-map",
     entry: {
         app: APP_DIR + '/app.js',
-        vendor: ["jquery", "bootstrap", "moment", "react", "react-dom", "react-router"]
+        vendor: ["bootstrap", "react", "react-dom", "react-router"]
     },
     output: {
         path: BUILD_DIR,
@@ -47,11 +47,11 @@ const config = {
             mangle: true,
             minimize: true
         }),
-        new webpack.DefinePlugin({
-            'process.env': {
-                'NODE_ENV': JSON.stringify('dev')
-            }
-        }),
+        // new webpack.DefinePlugin({
+        //     'process.env': {
+        //         'NODE_ENV': JSON.stringify('dev')
+        //     }
+        // }),
         new webpack.optimize.AggressiveMergingPlugin()
     ],
     externals: {
