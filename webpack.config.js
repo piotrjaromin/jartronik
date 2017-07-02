@@ -42,10 +42,10 @@ const config = {
                 warnings: false
             },
             comments: false,
-            // sourceMap: false,
+            sourceMap: false,
             sourceMap: true,
             mangle: true,
-            // minimize: true
+            minimize: true
         }),
         new webpack.DefinePlugin({
             'process.env': {
