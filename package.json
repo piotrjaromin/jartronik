@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --progress",
     "build-prod": "ENV=production webpack --progress",
-    "start": "webpack-dev-server --port 3000 --progress --watch --content-base ."
+    "start": "webpack-dev-server --port 3000 --progress --watch --content-base ./dist"
   },
   "author": "",
   "license": "ISC",
