@@ -39,7 +39,7 @@ class Contact extends React.Component {
                                 <p className="contact-value">+48 501 762 405</p>
                         </Col>
                         <Col md={6}>
-                                 <iframe width="565" height="430" frameborder="0" className="borderless" allowfullscreen src="https://maps.google.pl/maps?f=q&amp;source=s_q&amp;hl=pl&amp;geocode=&amp;q=Jartronik.+Stanis%C5%82aw+Jaronin,+Warszawska,+Bieru%C5%84&amp;aq=1&amp;oq=jart&amp;sll=51.953751,19.134379&amp;sspn=8.168008,19.753418&amp;ie=UTF8&amp;hq=Jartronik.+Stanis%C5%82aw+Jaronin,&amp;hnear=Warszawska,+43-150+Bieru%C5%84,+bieru%C5%84sko-l%C4%99dzi%C5%84ski,+%C5%9Bl%C4%85skie&amp;t=m&amp;cid=17475102868437811941&amp;ll=50.069426,19.190025&amp;spn=0.026444,0.054932&amp;z=14&amp;iwloc=A&amp;output=embed&amp;amp;wmode=transparent" >
+                                 <iframe width="565" height="430" frameBorder="0" className="borderless" allowfullscreen src="https://maps.google.pl/maps?f=q&amp;source=s_q&amp;hl=pl&amp;geocode=&amp;q=Jartronik.+Stanis%C5%82aw+Jaronin,+Warszawska,+Bieru%C5%84&amp;aq=1&amp;oq=jart&amp;sll=51.953751,19.134379&amp;sspn=8.168008,19.753418&amp;ie=UTF8&amp;hq=Jartronik.+Stanis%C5%82aw+Jaronin,&amp;hnear=Warszawska,+43-150+Bieru%C5%84,+bieru%C5%84sko-l%C4%99dzi%C5%84ski,+%C5%9Bl%C4%85skie&amp;t=m&amp;cid=17475102868437811941&amp;ll=50.069426,19.190025&amp;spn=0.026444,0.054932&amp;z=14&amp;iwloc=A&amp;output=embed&amp;amp;wmode=transparent" >
                                  </iframe>
                         </Col>
 

@@ -18,9 +18,9 @@ const Navigation = React.createClass({
                         <li className="center">
                             <Link to="/offers" activeClassName="active" onlyActiveOnIndex>Oferta</Link>
                         </li>
-                        <li className="center">
+                        {/*<li className="center">
                             <Link to="/companies" activeClassName="active" onlyActiveOnIndex>Limit remontowy</Link>
-                        </li>
+                        </li>*/}
                         <li className="center">
                             <Link to="/gallery" activeClassName="active" onlyActiveOnIndex>Galeria</Link>
                         </li>

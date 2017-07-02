@@ -35,7 +35,7 @@ class Offer extends React.Component {
                     <Col lg={3} md={3} sm={3} xs={12}>
                         <OffersMenu handleClick={this.handleClick}/>
                     </Col>
-                    <Col log={9} md={9} sm={9} xs={12}>
+                    <Col lg={9} md={9} sm={9} xs={12}>
                         <Row>
                             {tiles}
                         </Row>

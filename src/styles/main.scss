@@ -106,7 +106,7 @@ body {
   //   background-image: url("/images/fireplace_640_480.jpg");
   // }
 
-  background-image: url("images/fireplace_1920_1440.jpg");
+  background-image: url("/images/fireplace_1920_1440.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -170,8 +170,6 @@ body {
     margin-top: 1em;
 }
 
-
-@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
 .col-item
 {
     border: 1px solid #E1E1E1;
