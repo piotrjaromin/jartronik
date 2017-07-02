@@ -23,7 +23,11 @@ class OfferTile extends React.Component {
                         <div className="info">
                             <Row>
                                 <Col lg={12}>
-                                    <Link to={this.props.path}>
+                                    {/*<Link to={this.props.path}>*/}
+                                    <Link to={{ 
+                                        pathname: this.props.path, 
+                                        state: { name: this.props.name } 
+                                    }}>
                                     <h5>{this.props.name}</h5>
                                     </Link>
                                 </Col>

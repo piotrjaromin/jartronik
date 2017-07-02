@@ -5,7 +5,8 @@ const Col = require('react-bootstrap').Col;
 const Row = require('react-bootstrap').Row;
 const OferTile = require('./OfferTile');
 const Link = require("react-router/lib/Link");
-const offers = require('../offers-list.json');
+const offers = require('../offers-list');
+const OffersMenu = require('./OffersMenu');
 
 class Offer extends React.Component {
 
@@ -32,15 +33,7 @@ class Offer extends React.Component {
 
         return <Row>
                     <Col lg={3} md={3} sm={3} xs={12}>
-                        <div className="list-group table-of-contents">
-                        <a className="list-group-item" href="#offers?filter=kotly" onClick={this.handleClick("kotly")}>Ktoły</a>
-                        <a className="list-group-item" href="#offers?filter=kominki" onClick={this.handleClick("kominki")}>Kotły gazowe</a>
-                        <a className="list-group-item" href="#offers?filter=bojlery" onClick={this.handleClick("bojlery")}>Grzejniki i bojlery</a>
-                        <a className="list-group-item" href="#offers?filter=other" onClick={this.handleClick("other")}>Kolektory słoneczne</a>
-                        <a className="list-group-item" href="#offers?filter=kominki" onClick={this.handleClick("kominki")}>Kominki</a>
-                        <a className="list-group-item" href="#offers?filter=akcesoria" onClick={this.handleClick("akcesoria")}>Akcesoria kominkowe</a>
-                        <a className="list-group-item" href="#offersfilter=other" onClick={this.handleClick("other")}>Aparty grzewczo-wentylacyjne</a>
-                        </div>
+                        <OffersMenu handleClick={this.handleClick}/>
                     </Col>
                     <Col log={9} md={9} sm={9} xs={12}>
                         <Row>
