@@ -47,11 +47,12 @@ const config = {
             mangle: true,
             minimize: true
         }),
-        // new webpack.DefinePlugin({
-        //     'process.env': {
-        //         'NODE_ENV': JSON.stringify('dev')
-        //     }
-        // }),
+        new webpack.DefinePlugin({
+            'process.env': {
+                'NODE_ENV': JSON.stringify('production')
+                // 'NODE_ENV': JSON.stringify('dev')
+            }
+        }),
         new webpack.optimize.AggressiveMergingPlugin()
     ],
     externals: {
