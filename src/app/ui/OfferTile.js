@@ -5,6 +5,7 @@ const Col = require('react-bootstrap').Col;
 const Row = require('react-bootstrap').Row;
 const Link = require("react-router/lib/Link");
 
+
 class OfferTile extends React.Component {
 
     constructor(params) {
