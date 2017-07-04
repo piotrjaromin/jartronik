@@ -68,7 +68,7 @@ body {
   border-radius: 0px
 }
 
-.navbar-inverse {
+.navbar-default {
   background-color: #f6f1ed;
   border-color:#f6f1ed;
   .navbar-nav>li>a {
@@ -93,18 +93,18 @@ body {
 
 .banner {
 
-  // @media screen and (min-width: 2592) {
-  //   background-image: url("/images/fireplace_2592_1944.jpg");
-  // }
-  // @media screen and (min-width: 1920) {
-  //   background-image: url("/images/fireplace_1920_1440.jpg");
-  // }
-  // @media screen and (min-width: 1280) {
-  //   background-image: url("/images/fireplace_1280_960.jpg");
-  // }
-  // @media screen and (min-width: 540) {
-  //   background-image: url("/images/fireplace_640_480.jpg");
-  // }
+  @media screen and (min-width: 1921) {
+    background-image: url("/images/fireplace_2592_1944.jpg");
+  }
+  @media screen and (min-width: 1281) and (max-width: 1920) {
+    background-image: url("/images/fireplace_1920_1440.jpg");
+  }
+  @media screen and (max-width: 541) and (max-width: 1280) {
+    background-image: url("/images/fireplace_1280_960.jpg");
+  }
+  @media screen and (max-width: 540) {
+    background-image: url("/images/fireplace_640_480.jpg");
+  }
 
   background-image: url("/images/fireplace_1920_1440.jpg");
   background-size: cover;

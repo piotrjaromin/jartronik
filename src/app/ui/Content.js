@@ -22,9 +22,9 @@ class Content extends React.Component {
             <Jumbotron className="banner">
                 <div className="container">
                     <Row>
-                        <Col md={4} xs={4} lg={4}></Col>
-                        <Col md={4} xs={4} lg={4}><img src="images/logo-jartronik.png"/></Col>
-                        <Col md={4} xs={4} lg={4}></Col>
+                        <Col md={4} xs={0} lg={4}></Col>
+                        <Col md={4} xs={12} lg={4}><img src="images/logo-jartronik.png"/></Col>
+                        <Col md={4} xs={0} lg={4}></Col>
                     </Row>
                 </div>
             </Jumbotron>
