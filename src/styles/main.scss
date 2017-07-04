@@ -94,19 +94,18 @@ body {
 .banner {
 
   @media screen and (min-width: 1921) {
-    background-image: url("/images/fireplace_2592_1944.jpg");
+    background-image: url("/images/fireplace_2592_1944_s.jpg");
   }
   @media screen and (min-width: 1281) and (max-width: 1920) {
-    background-image: url("/images/fireplace_1920_1440.jpg");
+    background-image: url("/images/fireplace_1920_1440_s.jpg");
   }
   @media screen and (max-width: 541) and (max-width: 1280) {
-    background-image: url("/images/fireplace_1280_960.jpg");
+    background-image: url("/images/fireplace_1280_960_s.jpg");
   }
   @media screen and (max-width: 540) {
-    background-image: url("/images/fireplace_640_480.jpg");
+    background-image: url("/images/fireplace_640_480_s.jpg");
   }
 
-  background-image: url("/images/fireplace_1920_1440.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
