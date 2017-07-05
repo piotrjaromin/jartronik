@@ -14,7 +14,7 @@ class OfferTile extends React.Component {
 
     render() {
 
-        const imgUrl = this.props.imgUrl || "http://placehold.it/350x260";
+        const imgUrl = this.props.imgUrl || "http://placehold.it/300x187";
 
         return <Col md={3} sm={4} xs={6} className="maring-up-1em">
                     <div className="col-item">
@@ -24,10 +24,9 @@ class OfferTile extends React.Component {
                         <div className="info">
                             <Row>
                                 <Col lg={12}>
-                                    {/*<Link to={this.props.path}>*/}
                                     <Link to={{ 
                                         pathname: this.props.path, 
-                                        state: { name: this.props.name } 
+                                        state: { name: this.props.name, image: this.props.imgUrl } 
                                     }}>
                                     <h5>{this.props.name}</h5>
                                     </Link>

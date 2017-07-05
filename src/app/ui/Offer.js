@@ -32,14 +32,19 @@ class Offer extends React.Component  {
                     <Col lg={3} md={3} sm={3} xs={12}>
                         <OffersMenu handleClick={this.handleClick}/>
                     </Col>
-                    <Col log={9} md={9} sm={9} xs={12}>
+                    <Col lg={9} md={9} sm={9} xs={12}>
                         <Row>
                             <PageHeader>{this.props.location.state.name}</PageHeader>
                         </Row>
                         <Row>
-                            <div>
+                            <Row className="text-center">
+                                <a href={this.props.location.state.image.replace("_s.jpg", "_xl.jpg")}>
+                                    <img src={this.props.location.state.image} alt="a" />
+                                </a>
+                            </Row>
+                            <Row className="padding-left-10px">
                                 <span dangerouslySetInnerHTML={{__html: this.state.text}} />
-                            </div>
+                            </Row>
                         </Row>
                     </Col>
                 </Row>
