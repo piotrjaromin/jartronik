@@ -117,7 +117,7 @@ module.exports = [{
     "path": "offers/kominki-polskie/uniflam-700-selenic-z-szybrem-z-doprowadzeniem-powietrza.html",
     "category": "kominki",
     "image": "offers/kominki-polskie/uniflam-700-selenic-z-szybrem-z-doprowadzeniem-powietrza_s.jpg",
-    "name": "uniflam 700 selenic z szybrem z doprowadzeniem powietrza"
+    "name": "uniflam 700 selenic z szybrem"
 }, {
     "path": "offers/kominki-polskie/wklad-kominkowy-unico-hermes-3d.html",
     "category": "kominki",
@@ -150,42 +150,42 @@ module.exports = [{
     "name": "prototyp wieloslimakowy podajnik do kotlow automatycznych"
 }, {
     "path": "offers/kotly-gazowe-junkers/cerapur-smart.html",
-    "category": "kotly",
+    "category": "kotly-gazowe",
     "image": "offers/kotly-gazowe-junkers/cerapur-smart_s.jpg",
     "name": "cerapur smart"
 }, {
     "path": "offers/kotly-gazowe-junkers/kociol-konwencjonalny-ceraclass.html",
-    "category": "kotly",
+    "category": "kotly-gazowe",
     "image": "offers/kotly-gazowe-junkers/kociol-konwencjonalny-ceraclass_s.jpg",
     "name": "kociol konwencjonalny ceraclass"
 }, {
     "path": "offers/kotly-gazowe-paradigma/modula-iii.html",
-    "category": "kotly",
+    "category": "kotly-gazowe",
     "image": "offers/kotly-gazowe-paradigma/modula-iii_s.jpg",
     "name": "modula iii"
 }, {
     "path": "offers/kotly-gazowe-paradigma/modula-nt.html",
-    "category": "kotly",
+    "category": "kotly-gazowe",
     "image": "offers/kotly-gazowe-paradigma/modula-nt_s.jpg",
     "name": "modula nt"
 }, {
     "path": "offers/kotly-gazowe-vaillant/ecotec-vc-plus.html",
-    "category": "kotly",
+    "category": "kotly-gazowe",
     "image": "offers/kotly-gazowe-vaillant/ecotec-vc-plus_s.jpg",
     "name": "ecotec vc plus"
 }, {
     "path": "offers/kotly-gazowe-vaillant/vkk-ecovit-4-exclusiv.html",
-    "category": "kotly",
+    "category": "kotly-gazowe",
     "image": "offers/kotly-gazowe-vaillant/vkk-ecovit-4-exclusiv_s.jpg",
     "name": "vkk ecovit 4 exclusiv"
 }, {
     "path": "offers/kotly-gazowe-vaillant/vsc-ecocompact.html",
-    "category": "kotly",
+    "category": "kotly-gazowe",
     "image": "offers/kotly-gazowe-vaillant/vsc-ecocompact_s.jpg",
     "name": "vsc ecocompact"
 }, {
     "path": "offers/kotly-gazowe-vaillant/zasobnik-actostor-vih-sl-20-s.html",
-    "category": "kotly",
+    "category": "kotly-gazowe",
     "image": "offers/kotly-gazowe-vaillant/zasobnik-actostor-vih-sl-20-s_s.jpg",
     "name": "zasobnik actostor vih sl 20 s"
 }, {
@@ -200,7 +200,7 @@ module.exports = [{
     "name": "kotly heiztechnik"
 }, {
     "path": "offers/kotly-lipnicki.html",
-    "category": "other",
+    "category": "kotly",
     "image": "offers/kotly-lipnicki_s.jpg",
     "name": "kotly lipnicki"
 }, {

@@ -28,7 +28,8 @@ class Offer extends React.Component {
         const filter = this.state.filter;
 
         offers
-            .filter( o => new RegExp(filter).test(o.category))
+            // .filter( o => new RegExp(filter).test(o.category))
+            .filter( o => !filter || filter === o.category)
             .forEach( o => tiles.push(<OferTile name={o.name} imgUrl={o.image} path={o.path}></OferTile>));
 
         return <Row>

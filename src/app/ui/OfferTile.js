@@ -16,7 +16,7 @@ class OfferTile extends React.Component {
 
         const imgUrl = this.props.imgUrl || "http://placehold.it/300x187";
 
-        return <Col md={3} sm={4} xs={6} className="maring-up-1em">
+        return <Col md={3} sm={6} xs={6} className="maring-up-1em">
                     <div className="col-item">
                         <div className="photo">
                             <img src={imgUrl} height="187" alt="a" />

@@ -11,8 +11,9 @@ class OffersMenu extends React.Component {
 
     render() {
         return <div className="list-group table-of-contents">
-            <a className="list-group-item" href="#offers" onClick={this.props.handleClick(".*")}>Wszystkie</a>
-            <a className="list-group-item" href="#offers?filter=kotly" onClick={this.props.handleClick("kotly")}>Ktoły</a>
+            <a className="list-group-item" href="#offers" onClick={this.props.handleClick("")}>Wszystkie</a>
+            <a className="list-group-item" href="#offers?filter=kotly" onClick={this.props.handleClick("kotly")}>Kotły</a>
+            <a className="list-group-item" href="#offers?filter=kotly" onClick={this.props.handleClick("kotly-gazowe")}>Kotły gazowe</a>
             <a className="list-group-item" href="#offers?filter=bojlery" onClick={this.props.handleClick("bojlery")}>Grzejniki i bojlery</a>
             <a className="list-group-item" href="#offers?filter=other" onClick={this.props.handleClick("other")}>Kolektory słoneczne</a>
             <a className="list-group-item" href="#offers?filter=kominki" onClick={this.props.handleClick("kominki")}>Kominki</a>
